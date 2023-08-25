@@ -22,3 +22,21 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven
+target/
+
+# IDE-specific
+.idea/
+.vscode/
+
+# Maven Wrapper
+.mvn/wrapper/
+
+# Spring Boot Gradle Plugin
+build.gradle
+build.gradle.kts
+gradle.properties
+gradle-wrapper.properties
+gradlew
+gradlew.bat
