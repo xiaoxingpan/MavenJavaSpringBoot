@@ -1,9 +1,8 @@
 package com.concordia.springcrud.service;
 
-import java.util.List;
-
-
 import com.concordia.springcrud.entity.Employee;
+
+import java.util.List;
 
 // di connects to interface
 public interface EmployeeService {

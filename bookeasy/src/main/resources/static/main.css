@@ -1,0 +1,11 @@
+
+.jumbotron {
+    background-color: #e9ecef;
+}
+#username{
+    font-size: smaller;
+    color: cornflowerblue;
+}
+#role{
+    font-size: small;
+}

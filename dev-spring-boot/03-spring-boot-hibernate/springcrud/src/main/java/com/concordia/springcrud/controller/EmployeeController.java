@@ -2,12 +2,10 @@ package com.concordia.springcrud.controller;
 
 import com.concordia.springcrud.entity.Employee;
 import com.concordia.springcrud.service.EmployeeService;
-import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -53,7 +51,6 @@ public class EmployeeController {
 
 //		// add loadData() to the spring model, present only the data that we loaded
 //		theModel.addAttribute("employees", theEmployees);
-
 
 		return "employees/list-employees";
 	}
